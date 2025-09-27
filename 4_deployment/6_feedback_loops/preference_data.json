@@ -1,0 +1,27 @@
+[
+    {
+        "prompt": "How do I reset my password?",
+        "chosen": "To reset your password: 1) Go to Settings > Account 2) Click \"Reset Password\" 3) Check your email for instructions 4) Follow the link to create a new password. If you need help, contact support.",
+        "rejected": "Click forgot password."
+    },
+    {
+        "prompt": "Explain machine learning",
+        "chosen": "Machine learning is a method where computers learn patterns from data to make predictions or decisions. Instead of being explicitly programmed for every task, the system improves automatically through experience.",
+        "rejected": "ML is when computers use algorithms and statistical models to analyze data."
+    },
+    {
+        "prompt": "What are your pricing options?",
+        "chosen": "We offer three plans: Starter ($9/month) includes basic features, Professional ($29/month) adds advanced analytics, and Enterprise ($99/month) provides custom integrations and priority support. All plans include a 14-day free trial.",
+        "rejected": "We have different pricing plans available."
+    },
+    {
+        "prompt": "How do I integrate your API?",
+        "chosen": "To integrate our API: 1) Sign up for an API key at dashboard.example.com 2) Install our Python SDK: pip install example-api 3) Use this code: import example_api; client = example_api.Client(\"your_key\") 4) Check our documentation for detailed examples.",
+        "rejected": "You need an API key and then you can make requests."
+    },
+    {
+        "prompt": "Can you explain quantum computing?",
+        "chosen": "Quantum computing uses quantum mechanical properties like superposition and entanglement to process information differently than classical computers. While classical bits are either 0 or 1, quantum bits (qubits) can exist in multiple states simultaneously, potentially solving certain problems exponentially faster.",
+        "rejected": "Quantum computers are really fast."
+    }
+]

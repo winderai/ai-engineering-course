@@ -1,0 +1,9 @@
+LAGER-003: Alpine Gold Lager
+Alcohol: 4.8%
+IBU: 18
+Style: German-style Lager
+Flavor Profile: Clean, crisp finish with subtle hop character
+Ingredients: Noble hops, German malt
+Serving Temp: 35-40°F
+Storage: Refrigerate, best within 120 days
+Available Sizes: 15.5 gallon kegs, 12oz bottles (cases of 24)

@@ -1,0 +1,30 @@
+description: "Advanced email classification with custom scoring"
+
+providers:
+  - id: ollama:qwen3:1.7b
+    config:
+      apiBaseUrl: http://localhost:11434/v1
+
+prompts:
+  - id: file://basic_prompt.json
+    label: "Simple"
+  - id: file://advanced_prompt.json
+    label: "Advanced"
+
+tests:
+  - vars:
+      email: "My subscription auto-renewed but I cancelled it last month"
+    assert:
+      - type: contains-any
+        value: ["billing", "complaint"]
+      - type: latency
+        threshold: 5000
+
+  - vars:
+      email: "Error 500 when I try to export my data"
+    assert:
+      - type: contains-json
+      - type: javascript
+        value: output.toLowerCase().includes('technical') || output.toLowerCase().includes('bug')
+
+outputPath: ./eval_results.json

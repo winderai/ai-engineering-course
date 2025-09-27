@@ -1,0 +1,9 @@
+IPA-001: Mountain Peak IPA
+Alcohol: 6.5%
+IBU: 65
+Style: American IPA
+Flavor Profile: Citrusy hops with pine notes, balanced malt backbone
+Ingredients: Cascade, Centennial, Chinook hops
+Serving Temp: 38-45°F
+Storage: Refrigerate, best within 90 days
+Available Sizes: 12oz bottles (cases of 24), 16oz cans (cases of 12)

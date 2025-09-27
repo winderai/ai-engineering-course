@@ -1,0 +1,47 @@
+description: "Email classification benchmark for customer service routing"
+
+providers:
+  - id: ollama:qwen3:1.7b
+    config:
+      apiBaseUrl: http://localhost:11434/v1
+      apiKeyEnvar: OLLAMA_API_KEY # Not needed but required by schema
+
+prompts:
+  - "Classify this customer email into one of these categories: billing, technical, sales, complaint, compliment. Email: {{email}} Category:"
+
+tests:
+  - vars:
+      email: "My credit card was charged twice for the same order. Please refund the duplicate charge immediately."
+    assert:
+      - type: contains
+        value: "billing"
+
+  - vars:
+      email: "The app crashes every time I try to upload a photo. I'm using iPhone 14 with iOS 17."
+    assert:
+      - type: contains
+        value: "technical"
+
+  - vars:
+      email: "I'm interested in your enterprise pricing. Can someone call me to discuss a custom contract?"
+    assert:
+      - type: contains
+        value: "sales"
+
+  - vars:
+      email: "This is the worst customer service I've ever experienced. Three weeks to resolve a simple issue!"
+    assert:
+      - type: contains
+        value: "complaint"
+
+  - vars:
+      email: "Your team went above and beyond to help me. Sarah was incredibly patient and knowledgeable."
+    assert:
+      - type: contains
+        value: "compliment"
+
+  - vars:
+      email: "When will my order ship? The tracking number shows no updates for 5 days."
+    assert:
+      - type: contains
+        value: "technical"

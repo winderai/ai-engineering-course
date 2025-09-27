@@ -1,0 +1,332 @@
+[
+  {
+    "vars": {
+      "email": "Subject: Urgent: Contaminated Beer Batch \u2013 Immediate Response Needed\n\nDear [Brewery Name],\n\nI hope this message finds you well. I am writing to bring to your attention an urgent issue with the beer batch I purchased yesterday. I recently discovered mold in the bottles, which is a serious health concern and I need your immediate attention.\n\nThe order number for my purchase is [INSERT ORDER NUMBER], and I received the bottles on [INSERT DATE]. The beer in question is [INSERT BEER NAME], and I have already reported this to the brewery.\n\nI am concerned about the safety of the product and want to ensure that it is handled properly. I would greatly appreciate your prompt response and the opportunity to discuss this matter in person.\n\nPlease let me know how you plan to address this issue and what steps you will take to ensure the product is safe for consumers.\n\nThank you for your swift attention to this matter. I am very concerned about the health and safety of my customers and would like"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "URGENT_ISSUE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent: Collision with Brewery Vehicle \u2013 Insurance Information Required\n\nDear [Brewery Name] Team,\n\nI\u2019m writing to urgently report a collision I suffered yesterday while driving my vehicle. I was transporting a case of [Beer Name] ordered under order number [ORDER NUMBER], and I was following the correct procedure when I accidentally collided with your vehicle.\n\nI need your assistance immediately to get the necessary insurance information for this incident. I\u2019m currently at the scene of the accident and would prefer to have this information provided in writing so I can proceed with the necessary steps.\n\nI\u2019m sorry for the inconvenience this has caused and I appreciate your prompt attention to this matter. Please let me know when you\u2019re able to assist me.\n\nThank you for your immediate response.\n\nBest regards,  \n[Customer Name]  \nDriver  \n[Contact Information]  \n[Date]"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "URGENT_ISSUE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent: Refrigeration Failure at [Customer Name]'s Walk-In Cooler  \n\nDear [Customer Name],  \n\nI hope you are doing well. We are writing to inform you that there has been a critical refrigeration failure at your walk-in cooler, which has caused the unit to stop working overnight. This has resulted in the loss of your entire inventory, and we are now in the process of assessing the situation to determine the best course of action.  \n\nThe system was functioning properly before the outage, and we are currently contacting the service team to arrange for immediate repairs. We understand the importance of your inventory and the financial impact of this situation, and we are working to resolve this as quickly as possible.  \n\nPlease be advised that the cooler is no longer operational, and we are in the early stages of replacing the refrigeration unit. We are in contact with the vendor to expedite the replacement and ensure that your inventory is restored as soon as possible.  \n\nWe are reaching out to you"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "URGENT_ISSUE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent: Water Main Break \u2013 Immediate Action Required\n\nDear [Customer's Name],\n\nI hope this message finds you well. We\u2019re writing to inform you of an urgent issue that requires your immediate attention. A water main break has occurred in the local area, and it\u2019s affecting the supply to our brewery. This has led to a flood in the basement, and we need to take emergency shutdown procedures to prevent further damage.\n\nWe are in the process of shutting down the brewery to address the situation. Please be advised that the facility will be temporarily closed until the issue is resolved. We apologize for the inconvenience this may cause and appreciate your understanding.\n\nWe\u2019ve noticed that the order number [Order Number] for your [Beer Name] has been affected by the outage. We\u2019re working to restore the supply as quickly as possible, and we\u2019ll keep you updated on the progress.\n\nPlease contact us at [Phone Number] or [Email Address] if you have any questions or need further information."
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "URGENT_ISSUE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent: Health Inspection Violations \u2013 Immediate Action Required\n\nDear [Inspector's Name],\n\nI hope this message finds you well. I am writing to bring to your immediate attention the critical violations identified during the recent health inspection of [Brewery Name], located at [Address]. The inspection was conducted on [Date], and the results are alarming.\n\nThe brewery was found to have multiple critical violations, including but not limited to:\n\n- Improper sanitation practices in the brewing area\n- Lack of proper storage for raw materials\n- Non-compliance with food safety regulations for the storage and preparation of food\n- Failure to maintain adequate hygiene in the dining area\n\nThese violations pose a significant risk to public health and safety, and the brewery is at risk of closure. We are in the process of addressing these issues, but we need your immediate attention and support to ensure the safety of our customers and the continued operation of our business.\n\nWe understand the importance of following all health and safety regulations,"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "URGENT_ISSUE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Order for 50kg of Cascade Hops and Malt \u2013 Next Week\n\nHi Sarah,\n\nI hope you're doing well. I wanted to place an order for 50kg of Cascade hops and 50kg of malt, as I'm running low and need it by next week. The order number is 20230815-0456.\n\nI\u2019ll be picking up the hops and malt from the local supplier, and I\u2019ll need them by the 15th of September. Let me know if you need any additional details or if there\u2019s anything else I should be aware of.\n\nLooking forward to your confirmation.\n\nBest regards,  \nJames Thompson  \nCustomer Support  \nBrewers' Haven Brewing Co.  \nEmail: jthompson@brewershaven.com  \nPhone: 555-123-4567"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SUPPLY_ORDER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Request for Shipment of 5000 Brown Bottles \u2013 [Customer Name] \u2013 [Order Number]\n\nHi [Brewery Name],\n\nI hope this message finds you well. I\u2019m reaching out to follow up on our previous order for 5000 brown bottles, which was placed on [Date]. We\u2019ve been waiting for the shipment and wanted to confirm if it\u2019s on track.\n\nOur standing order for [Beer Name] is set to begin on [Date] and we need the bottles to be ready by [Date] to ensure we meet our monthly demand. We\u2019ve already placed a pre-order with our supplier, and we\u2019d appreciate it if the shipment could be processed as soon as possible.\n\nPlease let me know if there\u2019s any additional information or documentation required from our side. We\u2019re looking to keep our order schedule aligned and ensure we can fulfill our monthly standing order without interruption.\n\nThank you for your attention to this matter. We appreciate your support and look"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SUPPLY_ORDER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Keg Rental Order for Weekend Festival\n\nHi [Customer's Name],\n\nI hope this message finds you well. I wanted to follow up on our recent conversation regarding the keg rental for the upcoming weekend festival. We\u2019ve successfully secured the order for 20 kegs, and I\u2019m excited to share the details:\n\n- **Order Number:** KEG20231215\n- **Beer Selection:** We\u2019ve chosen a mix of our flagship brews and some seasonal flavors to ensure a great tasting lineup for the crowd.\n- **Dates:** The rental will be available from **December 15th to 16th**.\n- **Quantity:** 20 kegs, with 10 of them allocated for the main event and 10 for the afternoon lineup.\n\nWe\u2019ve also arranged for the kegs to be delivered to your location on **December 14th**. Please let us know if you need any additional assistance with the setup"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SUPPLY_ORDER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Order for Sanitizer and Caustic Cleaner \u2013 Q1 2025\n\nHi [Customer's Name],\n\nI hope this message finds you well. I\u2019m reaching out to place a small order for some essential cleaning supplies to support our brewery operations during the upcoming quarter.\n\nWe\u2019re currently needing a bulk order of **Brewster\u2019s Sanitizer** and **Caustic Cleaner \u2013 Premium Grade**. These are critical for maintaining a safe and hygienic environment in our facility. The order quantity is 100 gallons each, and we\u2019d like to place this by the end of Q1 to ensure it\u2019s available by the start of the quarter.\n\nThe order number is **ORD-78921** and we\u2019ll be shipping it via **UPS Express**. Please let me know if you need any additional details or if there\u2019s anything else we can assist with.\n\nLooking forward to your confirmation and thanks for your continued support.\n\nBest regards,  \n["
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SUPPLY_ORDER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent Refill Needed \u2013 CO2 Tank for [Beer Name]\n\nHi [Customer Name],\n\nI hope you're doing well. I wanted to reach out because I've been running a bit low on carbonation supplies and I need a refill within the next three days. I\u2019m trying to keep [Beer Name] at its best, and I don\u2019t want to miss out on the perfect taste.\n\nI ordered a new CO2 tank through [Brewery Name] and the order number is #123456. I\u2019d appreciate it if you could ship it to me as soon as possible. Please let me know if there\u2019s anything else I need to do or if you need more information.\n\nI\u2019m really looking forward to getting this delivered and having [Beer Name] back to its full potential. Thank you for your understanding and support.\n\nBest regards,  \n[Customer Name]  \n[Customer Address]  \n[City, State, ZIP Code]  \n[Phone Number"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SUPPLY_ORDER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Request for Brewery Tour Booking - [Customer Name] Group  \n\nDear [Brewery Name] Team,  \n\nI hope this message finds you well. I\u2019m [Customer Name], and I\u2019m writing to kindly request a tour booking for our group of 15 people, who are available next Saturday afternoon.  \n\nWe\u2019d love to explore the brewery and learn more about the brewing process, the history behind the beer, and the behind-the-scenes operations. We\u2019d appreciate it if you could arrange a tour for us, ideally starting around 12:00 PM.  \n\nOur group consists of [number of people], and we\u2019d be happy to provide a detailed breakdown of what we\u2019d like to see during the tour. We\u2019re looking for a tour that includes the tasting area and the brewing facility, as we\u2019d like to experience the entire process.  \n\nPlease let us know if there are any specific times or requirements we need to be aware of. We\u2019re also open to discussing"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SCHEDULE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Request for Early Delivery Schedule Adjustment\n\nDear [Brewery Name] Team,\n\nI hope this message finds you well. I\u2019m writing to kindly request a change to our delivery schedule for the upcoming order placed on [Date]. We\u2019re currently scheduled to receive the [Beer Name] on [Original Delivery Date], but due to the ongoing lunch rush at our restaurant, we\u2019d prefer to have it delivered by [New Delivery Date].\n\nWe\u2019ve already confirmed our order number [Order Number] and are committed to meeting the demands of our kitchen during the peak hours. We appreciate your understanding and flexibility in this matter.\n\nPlease let us know if there are any additional details or steps we need to take to accommodate this request. We\u2019re happy to provide any necessary information to facilitate the adjustment.\n\nThank you for your continued support and for making our experience with [Brewery Name] a positive one.\n\nBest regards,  \n[Customer Name]  \n[Restaurant Name]  \n[Contact Information]  \n["
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SCHEDULE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Schedule Equipment Maintenance for Bottling Line - [Customer Name] - [Order Number]\n\nHi [Customer Name],\n\nI hope you're doing well. I wanted to follow up regarding the equipment maintenance for your bottling line. We\u2019ve arranged a scheduled time for next Tuesday morning, at 9:00 AM, to ensure everything runs smoothly.\n\nWe\u2019ll be performing a thorough inspection and maintenance of the key components, including the bottling machine, filling system, and conveyor belt. This will help prevent any potential issues and ensure your production stays on track.\n\nPlease let us know if you have any specific concerns or if there\u2019s anything else you\u2019d like to discuss. We\u2019re here to make sure your operation runs efficiently.\n\nThank you for your trust in us. We look forward to serving you and keeping your process running smoothly.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Company Name]  \n[Contact Information]  \n[Order Number]"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SCHEDULE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent: Need Shift Coverage for Tonight\n\nHi There,\n\nI\u2019m writing to let you know I\u2019m currently feeling unwell and will be unable to cover the shift tonight. I\u2019m really sorry about this and I appreciate your understanding.\n\nI\u2019m looking for a replacement to cover the shift starting at 18:00. Could you please let me know if you have any available staff members who can take over? If so, I\u2019d be grateful if you could provide their contact information and availability.\n\nI\u2019m also happy to provide any additional details you might need, such as my order number or the specific beer I\u2019m drinking. I\u2019m sure you\u2019ll understand if I\u2019m unable to come in.\n\nThank you for your support and for being such a great team. I\u2019m looking forward to working with you again.\n\nBest regards,  \n[Full Name]  \n[Job Title]  \n[Employee Name]  \n[Date of Sick Leave]  \n[Order Number]  \n[Beer Name"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SCHEDULE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Request for Private Event Space at [Brewery Name]\n\nHi [First Name],\n\nI hope this message finds you well. I\u2019m reaching out to inquire about the availability of your private event space for our corporate happy hour event, scheduled for [Month] [Day], [Year]. We\u2019re looking to book a space that can comfortably accommodate [Number] guests, with the option to add a few extra for a more lively atmosphere.\n\nWe\u2019ve heard great things about your brewery and the quality of your craft beers, so we\u2019re really excited about the opportunity to experience it. Could you please confirm the available dates and times for the space? We\u2019d also be grateful if you could let us know about any specific requirements or preferences for the event, such as setup, lighting, or any particular beer you\u2019d like to serve.\n\nThank you for considering our request. We\u2019d be thrilled to schedule a time to discuss further and ensure everything is perfect for your event. Please let us know if there"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "SCHEDULE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Wow, I Can't Stop Raving About This IPA!\n\nHi [Customer's Name],\n\nI just wanted to take a moment to sincerely thank you for the amazing IPA you sent me recently. It's hands down the best beer I've ever tasted, and I can't believe I'm still trying it!\n\nFrom the first sip, I was completely hooked. The aroma was rich and complex, the flavor balanced and delicious, and the finish was just perfect. I honestly can't put a word to how amazing it is. It's not just a beer\u2014it's an experience.\n\nI've already shared it with my friends, and everyone is raving about it. I'm so glad I chose to try it, and I can't wait to see what other flavors it has to offer.\n\nThank you for providing such a great product. I'll definitely be coming back for more.\n\nBest regards,  \n[Customer's Name]  \n[Order Number]  \n[Date]  \n[Beer Name]"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "CUSTOMER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Request for Gluten-Free Options for My Order\n\nHi Sarah,\n\nI hope you're doing well. I wanted to reach out because I recently placed an order for your flagship IPA, *Cloud Nine*, and I'm looking for gluten-free options to accommodate my celiac disease.\n\nI ordered the 12-pack on April 5th, and the order number is 123456789. I'd love to know if you offer any gluten-free beers or if you can accommodate a request for a gluten-free version of *Cloud Nine*.\n\nI\u2019ve tried a few other beers, but I\u2019m not sure if they\u2019re safe. Could you please let me know if there are any specific gluten-free options available, or if you can provide me with a list of your gluten-free beers?\n\nThank you for your time and for your great product. I truly appreciate your support and hope to place an order soon.\n\nBest regards,  \nMichael  \nCustomer  \nOrder #12"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "CUSTOMER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Requesting Loyalty Program Information\n\nHi Mark,\n\nI hope you're doing well. I wanted to reach out and ask if you could provide me with more information about the brewery's loyalty program. I've been a regular customer for over a year now, and I've really enjoyed the variety of beers you offer. I've ordered several bottles of your popular \"Black Stallion\" and \"Hearth & Mill\" lines, and I've been impressed with the quality and taste.\n\nI'm interested in understanding the benefits of the loyalty program, such as discounts, exclusive offers, and special events. I'd love to know if there's a way to join and start accruing points right away. I'm not sure if there's a minimum order requirement or if it's open to all customers.\n\nThanks for your time and consideration. I look forward to hearing from you.\n\nBest regards,  \n[First Name] [Last Name]  \nOrder Number: 1234567"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "CUSTOMER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Missing Order Items \u2013 Appreciation and Request for Resolution\n\nDear [Customer's Name],\n\nI hope this message finds you well. I wanted to reach out to kindly inform you that I received only half of my order today. I\u2019m sorry for the inconvenience this may have caused, and I truly appreciate your understanding.\n\nYour order number is 123456789, and you purchased the following items: [Insert Beer Name] 12 oz, [Insert Beer Name] 12 oz, and [Insert Beer Name] 12 oz. Unfortunately, I only received half of the items, which is a bit disappointing.\n\nI understand that unexpected issues can happen, and I\u2019m happy to assist in resolving this. Could you please let me know if you\u2019d like to discuss the matter further or if there\u2019s anything else I can do to make this right?\n\nThank you for your patience and for being a loyal customer. I truly value your business and hope to"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "CUSTOMER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Inquiry About Bulk Gift Card Discounts for Christmas Presents\n\nHi Sarah,\n\nI hope you're doing well. I wanted to reach out to see if you could help me with some bulk gift card discounts for my Christmas presents. I'm looking to buy a few gift cards for different beers, and I'd like to see if there's a way to get a better rate when purchasing in bulk.\n\nI've ordered a few items from your brewery, including the New England IPA and the Belgian Dubbel, and I'd love to get a discount on those. I'm not sure if there's a specific program for bulk orders or if I need to contact someone directly.\n\nCould you let me know if there's a way to get a bulk discount on gift cards? I'm also interested in knowing if you have any special promotions for the holiday season. I'd be happy to provide my order number and details if needed.\n\nThanks for your time, and I look forward to hearing from you.\n\nBest regards,"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "CUSTOMER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent: Tap Handle Issue on [Beer Name] - Request for Replacement\n\nHi [Bar Staff Name],\n\nI hope you're doing well. I\u2019m writing to bring your attention to a minor issue with the tap handle on the [Beer Name] serving system. It\u2019s been a few days since I noticed the handle is slightly loose, and it\u2019s affecting the flow of the beer. I\u2019ve tried adjusting it, but it\u2019s not resolving the problem.\n\nI\u2019m concerned that this could lead to customer dissatisfaction and a drop in service quality. I\u2019d really appreciate it if you could consider replacing the tap handle with a new one. If you need any specific part numbers or assistance with the replacement, please let me know.\n\nI\u2019m happy to provide any additional details you might need. I\u2019m also available to discuss this further if you\u2019d like.\n\nThank you for your prompt attention to this matter. I\u2019m looking forward to resolving this as soon as possible.\n\nBest regards,  \n[Your"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "MAINTENANCE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Scheduling Fermenter Cleaning for [Customer Name], [Order Number]\n\nHi [Customer Name],\n\nI hope this message finds you well. We wanted to follow up on the routine maintenance scheduled for your fermenter, as it\u2019s time for a cleaning to ensure optimal performance and flavor consistency.\n\nWe\u2019ve coordinated with our team to schedule a cleaning and maintenance check for [Date], and we\u2019d be happy to accommodate your schedule. Please let us know if you\u2019d prefer a specific time slot or if there are any considerations you\u2019d like to discuss.\n\nYour attention to detail and commitment to quality are what make our beers special, and we appreciate your trust in us.\n\nLooking forward to your confirmation,\n\n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Contact Information]  \n[Order Number]  \n[Beer Name]"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "MAINTENANCE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Follow-Up on Bottling Line Calibration \u2013 [Customer Name] \u2013 [Order Number]\n\nDear [Technician Name],\n\nI hope this message finds you well. I wanted to follow up on our recent calibration of the bottling line, which was scheduled to be completed on [Date]. We\u2019ve been experiencing some under-filling issues with our [Beer Name] bottles, and we\u2019re concerned that this could impact the quality and consistency of our product.\n\nWe\u2019ve reviewed the calibration process and would appreciate your assistance in reviewing the setup and ensuring that everything is properly adjusted. If you\u2019re available, we\u2019d be happy to schedule a time for you to check in person or via video call. Please let us know your availability, and we\u2019ll do our best to accommodate your schedule.\n\nWe\u2019re also interested in knowing if there are any specific steps or adjustments that need to be made to ensure the under-filling issue is resolved. Your expertise and support are invaluable, and we\u2019re looking forward to working together"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "MAINTENANCE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: HVAC System Issues Affecting Fermentation Room\n\nDear [Brewery Name] Support Team,\n\nI hope this message finds you well. I\u2019m writing to report some HVAC system issues that are affecting our fermentation room, which is critical for our current batch of [Beer Name]. We noticed the temperature has been fluctuating recently, and it\u2019s starting to impact the quality of the beer we\u2019re producing.\n\nOn [Date], during our routine inspection, we observed that the ambient temperature in the fermentation room was consistently above [specific temperature, e.g., 62\u00b0F] and fluctuating. This has caused the yeast to be active at a suboptimal level, leading to off-flavors and a lower-than-expected ABV.\n\nWe\u2019ve attached a photo of the HVAC system and the temperature log from the last few days to provide a clearer picture of the situation. We\u2019re concerned that this could affect the batch we\u2019re currently working on, which is due for delivery on [Delivery"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "MAINTENANCE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Urgent: Forklift Hydraulic System Leak \u2013 Need Immediate Repair\n\nHi [Customer's Name],\n\nI hope you're doing well. I wanted to reach out regarding the forklift hydraulic system that you\u2019ve been using in your warehouse. We noticed a small leak in the hydraulic lines, and it\u2019s starting to affect the safety of the equipment. This is a critical issue, and we need it fixed as soon as possible to ensure your operations run smoothly.\n\nThe leak is causing the system to lose pressure, which could lead to operational delays and potential safety hazards. We\u2019ve assessed the situation, and it appears the hydraulic pump is the source of the problem. We\u2019ve scheduled a repair for [Date], and we\u2019ll need to send a technician to your location to perform the work.\n\nWe\u2019re aware that this might be a bit disruptive, but we\u2019re here to help and ensure your equipment remains reliable. Please let us know if you need any additional information or if there\u2019s anything else we can"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "MAINTENANCE"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Interview Request for Local Brewery Owner\n\nDear [Brewery Owner's Name],\n\nI hope this message finds you well. I\u2019m writing to follow up on our recent conversation about the upcoming feature in our local newspaper. I\u2019m truly interested in interviewing you about your journey as a brewer and the unique character of your brewery.\n\nI\u2019d love to schedule a time to discuss this in person. Could you let me know your availability? I\u2019m happy to accommodate any time that works for you.\n\nPlease let me know if there\u2019s anything else you\u2019d like to add to the interview or if you have any specific topics you\u2019d like to cover. I\u2019m looking forward to the opportunity to learn more about your craft and your story.\n\nThank you for considering this request. I\u2019m excited about the possibility of contributing to our community and sharing the passion behind your beer.\n\nBest regards,  \n[Your Full Name]  \n[Your Contact Information]  \n[Order Number]  \n[Date of Order]"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "OTHER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Lost Jacket \u2013 Seeking Help\n\nDear [Brewery Name] Support Team,\n\nI hope you're doing well. I\u2019m writing to report that I left my jacket behind last night at your brewery. I was wearing it to attend a event and it\u2019s been a bit of a hassle to find it now.\n\nI can\u2019t remember exactly what it looked like, but I do recall it being a light blue color with a subtle pattern. It had a logo on the left sleeve and was quite worn. I\u2019m afraid it might be difficult to find, but I\u2019d really appreciate any help you can offer.\n\nI\u2019ll be arriving today and would be happy to pick it up in person if possible. If you need any more details, please let me know. I\u2019m also happy to provide a photo if you'd like.\n\nThank you for your assistance. I\u2019m looking forward to getting my jacket back soon.\n\nBest regards,  \n[First Name] [Last Name]  \nOrder Number:"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "OTHER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Your Annual Membership Renewal \u2013 Thank You for Your Support  \n\nDear Mark Thompson,  \n\nWe hope this message finds you well. We wanted to follow up on your annual membership renewal, which we\u2019re thrilled to have you back on board. Your continued support means a lot to us, and we\u2019re excited to have you as part of our community.  \n\nYour membership for the year ending **April 2025** has been successfully renewed, and your order number **#12345678** is now active. We\u2019ve included your latest invoice below, and we hope you\u2019ll find it easy to follow.  \n\nThis year, you\u2019ve been part of our team, and we\u2019re really enjoying the time we\u2019ve had together. We\u2019ve also included a special gift for you \u2013 a **Hearth & Stone IPA** from our **Hearth & Stone** line, which we believe you\u2019ll enjoy.  \n\nWe\u2019re looking forward to another great year with you,"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "OTHER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Concern About Noise Disturbances Near My Home\n\nHi [First Name],\n\nI hope you're doing well. I wanted to reach out about some noise disturbances I've been experiencing near my home. It's been a few nights now, and the late-night deliveries are really bothering me. I've noticed the sound of the delivery truck and the loud music playing during the late hours, which is quite disruptive.\n\nI live in [City], and I've been a regular customer of [Brewery Name] for a while. I ordered [Beer Name] on [Order Date], and it's been a great experience so far. I'm not sure if this is a normal occurrence, but I wanted to make sure you're aware of the issue.\n\nI'd appreciate it if you could address this as soon as possible. If there's anything I can do to help resolve this, please let me know. I'm always looking for a good brew and a great time to enjoy it.\n\nThank"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "OTHER"
+      }
+    ]
+  },
+  {
+    "vars": {
+      "email": "Subject: Follow-Up on Brewery Position Application  \n\nDear [Candidate's Name],  \n\nI hope this message finds you well. I wanted to follow up with regard to the brewery position I applied for earlier this week. I\u2019m writing to confirm that I\u2019ve reviewed your resume and references, and I\u2019m truly interested in the opportunity to contribute to your team.  \n\nYour resume highlights your experience in the brewing industry, and I\u2019m particularly impressed with your track record in [specific role, e.g., \"customer service\"], where you demonstrated excellent problem-solving skills and a strong attention to detail. I also appreciate the references you provided, which I believe reflect your professional demeanor and capabilities.  \n\nI\u2019m eager to discuss how my background and skills can align with your team\u2019s goals. I\u2019d welcome the chance to talk further and would be happy to provide any additional information you may need.  \n\nThank you again for considering my application. I look forward to hearing from you soon.  \n\nBest regards,  \n[Your Full"
+    },
+    "assert": [
+      {
+        "type": "contains",
+        "value": "OTHER"
+      }
+    ]
+  }
+]

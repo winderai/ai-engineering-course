@@ -1,0 +1,7 @@
+id,customer,status,ship_date,expected_ship,tracking,items
+ORD-001,"Alice Smith",shipped,2024-01-15,2024-01-20,TRK123,"[{""product"": ""Neural Network IPA"", ""quantity"": 2, ""unit"": ""bottles""}, {""product"": ""Gradient Descent Lager"", ""quantity"": 1, ""unit"": ""bottle""}]"
+ORD-002,"Bob Johnson",pending,,2024-02-01,,"[{""product"": ""Transformer Stout"", ""quantity"": 3, ""unit"": ""bottles""}]"
+ORD-003,"Carol Davis",delivered,2024-01-10,2024-01-15,TRK456,"[{""product"": ""Machine Learning Wheat"", ""quantity"": 1, ""unit"": ""bottle""}]"
+ORD-004,"David Wilson",shipped,2024-01-20,2024-01-25,TRK789,"[{""product"": ""Deep Learning Porter"", ""quantity"": 2, ""unit"": ""bottles""}, {""product"": ""Neural Network IPA"", ""quantity"": 1, ""unit"": ""bottle""}]"
+ORD-005,"Emma Brown",processing,,2024-02-05,,"[{""product"": ""Gradient Descent Lager"", ""quantity"": 4, ""unit"": ""bottles""}]"
+ORD-006,"Frank Miller",shipped,2024-01-18,2024-01-23,TRK321,"[{""product"": ""Transformer Stout"", ""quantity"": 1, ""unit"": ""bottle""}, {""product"": ""Machine Learning Wheat"", ""quantity"": 2, ""unit"": ""bottles""}]"

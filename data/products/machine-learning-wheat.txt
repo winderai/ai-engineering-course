@@ -1,0 +1,19 @@
+Name: Machine Learning Wheat
+Style: American Wheat Beer
+ABV: 5.2%
+IBU: 18
+AI Theme: Supervised Learning and Pattern Recognition
+
+Flavor Profile: A refreshing wheat beer that learns from your preferences with every sip. Light and cloudy with citrus and coriander notes that adapt to your palate. The smooth wheat character provides a clean base that allows subtle spice and fruit patterns to emerge, creating a uniquely adaptive drinking experience.
+
+Ingredients: Wheat Malt, Pale 2-Row Malt, Orange Peel, Coriander, Amarillo Hops, Belgian Wit Yeast
+
+Recipe: This wheat beer uses a traditional Belgian wit recipe enhanced with machine learning principles. The grain bill combines wheat and barley in a 60:40 ratio, creating the perfect training data for flavor development. Spice additions are timed precisely to create optimal pattern recognition in the final product.
+
+Backstory: Developed using feedback from hundreds of beer enthusiasts, this wheat beer represents the power of supervised learning in brewing. Our brewers collected tasting notes from every batch, using this data to train the recipe until it achieved maximum enjoyment across diverse palates. The result is a beer that has learned what makes people happy.
+
+Brewing Notes: Single infusion mash at 152°F for 60 minutes. Fermented with Belgian wit yeast at 72°F for 7 days. Orange peel and coriander added during the last 10 minutes of boil. Natural carbonation through bottle conditioning.
+
+Food Pairings: Light salads, grilled fish, fresh fruits, goat cheese, Vietnamese cuisine
+
+Awards: Best Wheat Beer - Summer Brewing Festival 2024, Gold Medal - Belgian-Style Competition 2023

@@ -1,0 +1,32 @@
+{
+  "customers": {
+    "12345": {
+      "name": "John Smith",
+      "balance": 15432.50,
+      "ssn": "123-45-6789",
+      "account_type": "checking",
+      "last_login": "2024-01-15"
+    },
+    "67890": {
+      "name": "Jane Doe",
+      "balance": 8920.15,
+      "ssn": "987-65-4321",
+      "account_type": "savings",
+      "last_login": "2024-01-14"
+    },
+    "11111": {
+      "name": "Alice Johnson",
+      "balance": 45123.88,
+      "ssn": "555-12-3456",
+      "account_type": "premium",
+      "last_login": "2024-01-16"
+    },
+    "22222": {
+      "name": "Bob Wilson",
+      "balance": 2345.67,
+      "ssn": "111-22-3333",
+      "account_type": "checking",
+      "last_login": "2024-01-13"
+    }
+  }
+}

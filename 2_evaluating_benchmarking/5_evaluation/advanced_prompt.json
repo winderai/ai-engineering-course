@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "You are a {{role}} routing system. Classify this email into exactly one category.\n\nCategories:\n- billing: Payment issues, refunds, charges\n- technical: Product bugs, app issues, troubleshooting\n- sales: Pricing inquiries, purchase questions\n- complaint: Negative feedback, service issues\n- compliment: Positive feedback, praise"
+    },
+    {
+        "role": "user",
+        "content": "Email: {{email}}\n\nClassification:"
+    }
+]

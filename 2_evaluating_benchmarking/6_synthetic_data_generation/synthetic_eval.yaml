@@ -1,0 +1,25 @@
+description: "Email Classification with Synthetic Data"
+
+providers:
+  - id: ollama:completion:qwen3:1.7b
+    config:
+      num_predict: 50
+      temperature: 0.1
+      top_p: 0.5
+      think: false
+
+prompts:
+  - |
+    Classify this brewery operations email into one of these categories:
+    - URGENT_ISSUE: Critical problems requiring immediate attention
+    - SUPPLY_ORDER: Orders for supplies, ingredients, or equipment
+    - SCHEDULE: Scheduling requests for tours, deliveries, or maintenance
+    - CUSTOMER: Customer feedback, inquiries, or complaints
+    - MAINTENANCE: Equipment maintenance or repair requests
+    - OTHER: Any other type of email
+
+    Email: {{email}}
+
+    Reply with only the category name.
+
+tests: synthetic_emails.json

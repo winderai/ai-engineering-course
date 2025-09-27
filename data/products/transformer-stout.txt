@@ -1,0 +1,19 @@
+Name: Transformer Stout
+Style: Imperial Stout
+ABV: 9.2%
+IBU: 45
+AI Theme: Attention Mechanisms and Natural Language Processing
+
+Flavor Profile: A powerful and complex imperial stout that transforms your palate with each sip. Rich chocolate and coffee notes provide the base layer, while roasted malt adds depth. Subtle vanilla and oak undertones emerge through the attention-grabbing finish, creating a multi-dimensional tasting experience that evolves like language understanding.
+
+Ingredients: Pale 2-Row Malt, Munich Malt, Chocolate Malt, Roasted Barley, Black Patent Malt, East Kent Goldings Hops, English Ale Yeast, Oak Chips
+
+Recipe: Our Transformer Stout uses a multi-grain bill that creates complex interactions between different malt characters. The brewing process incorporates an extended mash schedule that allows different enzymes to work in sequence, much like attention mechanisms focusing on different aspects of the grain bill. Oak aging for 3 months adds additional layers of complexity.
+
+Backstory: Inspired by the revolutionary Transformer architecture that changed natural language processing forever, this stout embodies the concept of paying attention to the most important elements. Just as Transformers revolutionized AI by learning which words to focus on in a sentence, this stout teaches your palate to focus on the most important flavors in each sip.
+
+Brewing Notes: Primary fermentation at 68°F for 10 days. Secondary fermentation on oak chips for 3 months. The grain bill is carefully balanced to create self-attention between malt flavors. Cold conditioning for 4 weeks to allow flavors to integrate and mature.
+
+Food Pairings: Dark chocolate truffles, aged cheeses, beef stew, chocolate cake, smoked meats
+
+Awards: Best Imperial Stout - AI Brewing Championship 2024, Bronze Medal - Great American Beer Festival 2023

@@ -1,0 +1,12 @@
+Background: Artificial Intelligence has evolved significantly over the past decades, from simple rule-based systems to complex neural networks. The field encompasses machine learning, deep learning, natural language processing, computer vision, and robotics. Modern AI systems can perform tasks that traditionally required human intelligence, including image recognition, language translation, and strategic game playing.
+
+Previous conversation history:
+- User asked about machine learning basics
+- Discussed neural networks and their applications
+- Explored deep learning architectures
+- Reviewed natural language processing techniques
+- Covered computer vision fundamentals
+
+Current context: We are now focusing on the broader concept of AI and how these individual components work together to create intelligent systems.
+
+Question: What is AI?

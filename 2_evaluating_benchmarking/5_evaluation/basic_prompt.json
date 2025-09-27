@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "Classify this email into the following categories: billing, technical, sales, complaint, compliment"
+    },
+    {
+        "role": "user",
+        "content": "{{email}}"
+    }
+]

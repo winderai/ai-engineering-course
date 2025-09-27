@@ -1,0 +1,19 @@
+Name: Deep Learning Porter
+Style: Robust Porter
+ABV: 6.8%
+IBU: 35
+AI Theme: Deep Neural Networks and Layered Learning
+
+Flavor Profile: A robust porter with multiple layers of complexity that reveal themselves progressively, like a deep neural network processing information through hidden layers. Dark chocolate and coffee flavors form the input layer, while caramel and toffee notes emerge in the middle layers. The output is a harmonious blend of roasted malt character with subtle hop balance.
+
+Ingredients: Pale 2-Row Malt, Munich Malt, Crystal 120L, Chocolate Malt, Black Patent Malt, Willamette Hops, English Ale Yeast
+
+Recipe: Our Deep Learning Porter is built using a layered approach to malt complexity. Five different malts contribute distinct characteristics at different stages of the brewing process, creating hidden layers of flavor that interact and transform throughout fermentation and conditioning. Each layer builds upon the previous one, creating emergent complexity.
+
+Backstory: Inspired by the multi-layered architecture of deep neural networks, this porter was designed to demonstrate how simple ingredients can create complex outcomes through proper layering and interaction. Our head brewer spent over a year perfecting the recipe, adding and adjusting layers until the perfect flavor architecture emerged.
+
+Brewing Notes: Multi-step mash schedule to extract different characteristics from each malt layer. Primary fermentation at 66°F for 8 days. Secondary conditioning for 3 weeks to allow flavor layers to integrate. The complexity emerges gradually during the conditioning phase, much like training a deep network.
+
+Food Pairings: Roasted meats, aged cheddar, chocolate desserts, hearty stews, barbecue
+
+Awards: Best Porter - Deep Flavor Competition 2024, Silver Medal - English-Style Porter Category 2023

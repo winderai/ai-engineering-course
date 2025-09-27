@@ -1,0 +1,19 @@
+Name: Gradient Descent Lager
+Style: German-Style Lager
+ABV: 4.8%
+IBU: 25
+AI Theme: Machine Learning Optimization
+
+Flavor Profile: A clean, crisp lager that gradually reveals subtle complexity through its smooth descent from initial malt sweetness to a perfectly balanced, dry finish. Each sip brings you closer to the optimal flavor equilibrium, much like how gradient descent finds the perfect solution.
+
+Ingredients: German Pilsner Malt, Vienna Malt, Saaz Hops, Hallertau Hops, German Lager Yeast
+
+Recipe: This precision-crafted lager follows the traditional German brewing process with modern optimization techniques. We use a step-mashing program that gradually reduces temperatures in calculated steps, allowing enzymes to work at their optimal points. The lagering process extends for 6 weeks at carefully controlled temperatures, allowing flavors to converge to their perfect balance.
+
+Backstory: Created as a tribute to the mathematical elegance of gradient descent algorithms, this lager embodies the concept of iterative improvement. Our brewmaster spent months fine-tuning the recipe, making small adjustments with each batch until reaching the global minimum of brewing perfection. The result is a beer that represents the harmony between mathematical precision and brewing artistry.
+
+Brewing Notes: Decoction mashed following traditional German methods. Lagered for 6 weeks at 35°F. The hopping rate is carefully calculated to achieve perfect balance between malt sweetness and hop bitterness. Quality control involves precise measurements at every step to ensure consistent optimization.
+
+Food Pairings: German sausages, pretzels, roasted chicken, apple strudel, light seafood dishes
+
+Awards: Silver Medal - World Beer Cup 2023, People's Choice - Oktoberfest Competition 2024

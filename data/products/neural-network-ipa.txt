@@ -1,0 +1,19 @@
+Name: Neural Network IPA
+Style: India Pale Ale
+ABV: 6.5%
+IBU: 65
+AI Theme: Neural Networks and Deep Learning
+
+Flavor Profile: A complex and layered IPA with interconnected hop flavors that build upon each other like neurons in a network. Citrus and pine notes create the foundation, while tropical fruit layers add complexity. The malt backbone provides the structure needed to support the intricate hop network.
+
+Ingredients: Pale 2-Row Malt, Munich Malt, Crystal 60L, Centennial Hops, Cascade Hops, Citra Hops, Mosaic Hops, American Ale Yeast
+
+Recipe: Our Neural Network IPA is crafted using a multi-stage hop addition process that mimics the forward propagation of a neural network. Starting with a foundation of pale and Munich malts, we build complexity through five distinct hop additions at different stages of the brewing process. Each hop variety contributes its unique characteristics while interacting with the others to create emergent flavors.
+
+Backstory: Inspired by the breakthrough moment when our head brewer realized that hop interactions in beer mirror the way neurons process information, this IPA represents the marriage of brewing tradition and artificial intelligence concepts. Just as neural networks learn and adapt, this beer evolves in your glass, revealing new flavor combinations with each sip.
+
+Brewing Notes: Fermented at 66°F for optimal ester production. Dry-hopped twice during fermentation to maximize hop aroma extraction. The hopping schedule follows a pattern similar to neural network layers, with early additions providing the foundation and late additions adding the finishing touches.
+
+Food Pairings: Sharp cheddar cheese, spicy Thai cuisine, grilled salmon, dark chocolate desserts, buffalo chicken wings
+
+Awards: Gold Medal - Great American Beer Festival 2023, Best IPA - AI & Tech Brewery Awards 2024
