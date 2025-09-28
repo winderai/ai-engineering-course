@@ -25,7 +25,7 @@ Let's start by showing what LLMs are good at - general knowledge questions:
 
 ```bash
 # General knowledge question - LLMs excel at this
-ollama run qwen3:1.7b "What is the capital of France?"
+ollama run qwen3:1.7b --think=false "What is the capital of France?"
 ```
 
 The model correctly answers "Paris" because this is common knowledge in its training data.
@@ -36,7 +36,7 @@ Now let's try something more specific:
 
 ```bash
 # Historical fact - still works well
-ollama run qwen3:1.7b "When did World War II end?"
+ollama run qwen3:1.7b --think=false "When did World War II end?"
 ```
 
 ---
@@ -47,7 +47,7 @@ Now let's demonstrate where LLMs fail. Ask about your company's specific informa
 
 ```bash
 # Company-specific question - this will fail or hallucinate
-ollama run qwen3:1.7b "What is our company's Q3 2024 revenue?"
+ollama run qwen3:1.7b --think=false "What is our company's Q3 2024 revenue?"
 ```
 
 The model will either admit it doesn't know or worse, make up a plausible-sounding answer. Let's try another:
@@ -56,7 +56,7 @@ The model will either admit it doesn't know or worse, make up a plausible-soundi
 
 ```bash
 # Internal documentation question
-ollama run qwen3:1.7b "What are the steps in our company's code review process?"
+ollama run qwen3:1.7b --think=false "What are the steps in our company's code review process?"
 ```
 
 Again, the model has no access to this information.
@@ -69,7 +69,7 @@ LLMs also have a knowledge cutoff date:
 
 ```bash
 # Ask about recent events (adjust date as needed)
-ollama run qwen3:1.7b "What happened in the tech industry yesterday?"
+ollama run qwen3:1.7b --think=false "What happened in the tech industry yesterday?"
 ```
 
 The model can't answer about events after its training cutoff.
@@ -90,7 +90,7 @@ This demonstration shows three key limitations:
 
 ```bash
 # Template for participants to try
-ollama run qwen3:1.7b "[Your domain-specific question here]"
+ollama run qwen3:1.7b --think=false "[Your domain-specific question here]"
 ```
 
 Examples to suggest:

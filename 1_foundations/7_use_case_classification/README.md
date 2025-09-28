@@ -73,7 +73,7 @@ Classification:"
 ```bash
 # Example 2: Sarcasm - often misclassified
 ollama run qwen3:1.7b --think=false "Classify the following text as POSITIVE, NEGATIVE, or NEUTRAL:
-Text: Amazing, another software update.
+Text: Amazing, another software update...
 Classification:"
 ```
 
